@@ -1,8 +1,8 @@
-ch=input("Enter Your Character:")
+ch=input()
 if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A'  
      or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U'):
-  print("The Given Character", ch, "Vowel")
+  print(ch, "Vowel")
 elif ch == '$' :
-  print("The Given Character", ch, "invalid")
+  print(ch, "invalid")
 else:
-  print("The Given Character", ch, "Consonant")
+  print(ch, "Consonant")
